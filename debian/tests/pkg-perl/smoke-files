@@ -1,0 +1,3 @@
+# lib/ is used to determine the class in tests
+t/
+lib/

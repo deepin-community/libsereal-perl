@@ -1,0 +1,38 @@
+Source: libsereal-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libscalar-list-utils-perl <!nocheck>,
+                     libsereal-decoder-perl (>= 4.018) <!nocheck>,
+                     libsereal-encoder-perl (>= 4.018) <!nocheck>,
+                     libtest-longstring-perl <!nocheck>,
+                     libtest-memorygrowth-perl <!nocheck>,
+                     libtest-simple-perl <!nocheck>,
+                     libtest-warn-perl <!nocheck>,
+                     perl
+Standards-Version: 4.5.0
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libsereal-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libsereal-perl.git
+Homepage: https://metacpan.org/release/Sereal
+Rules-Requires-Root: no
+
+Package: libsereal-perl
+Architecture: all
+Depends: ${misc:Depends},
+         ${perl:Depends},
+         libsereal-decoder-perl (>= ${source:Upstream-Version}),
+         libsereal-encoder-perl (>= ${source:Upstream-Version})
+Description: fast, compact, powerful binary (de-)serialization module wrapper
+ Sereal is an efficient, compact-output, binary and feature-rich serialization
+ protocol. The Perl encoder is implemented as the Sereal::Encoder module, the
+ Perl decoder correspondingly as Sereal::Decoder. They are distributed
+ separately, in Debian as libsereal-decoder-perl and libsereal-encoder-perl.
+ .
+ This Sereal module is a very thin wrapper around both Sereal::Encoder and
+ Sereal::Decoder. It depends on both and loads both. So if you have a user of
+ both encoder and decoder, it is enough to depend on a particular version of
+ Sereal and you'll get the most recent released versions of Sereal::Encoder
+ and Sereal::Decoder.

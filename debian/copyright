@@ -9,7 +9,7 @@ License: Artistic or GPL-1+
 Comment: license information taken from META.{yml,json}/Makefile.PL
 
 Files: debian/*
-Copyright: 2015-2020, gregor herrmann <gregoa@debian.org>
+Copyright: 2015-2023, gregor herrmann <gregoa@debian.org>
 License: Artistic or GPL-1+
 
 License: Artistic

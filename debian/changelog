@@ -1,3 +1,85 @@
+libsereal-perl (5.004-1) unstable; urgency=medium
+
+  * Import upstream version 5.004.
+  * Bump versioned test dependencies on libsereal-{de,en}coder-perl.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 24 Jun 2023 12:31:22 +0200
+
+libsereal-perl (5.003-1) unstable; urgency=medium
+
+  * Import upstream version 5.003.
+  * Bump versioned test dependencies on libsereal-{de,en}coder-perl.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 10 Feb 2023 14:51:44 +0100
+
+libsereal-perl (5.002-1) unstable; urgency=medium
+
+  * Import upstream version 5.002.
+  * Update years of packaging copyright.
+  * Bump versioned test dependency on libsereal-{de,en}coder-perl.
+  * Declare compliance with Debian Policy 4.6.2.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 04 Feb 2023 22:34:12 +0100
+
+libsereal-perl (5.001-1) unstable; urgency=medium
+
+  * Import upstream version 5.001.
+  * Bump versioned (test) dependency on libsereal-{de-en}coder-perl.
+  * Drop test dependency on libtest-memorygrowth-perl.
+    These tests cause more grief than gain.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 11 Sep 2022 12:47:34 +0200
+
+libsereal-perl (4.025-1) unstable; urgency=medium
+
+  * Add lintian override for upstream-metadata-missing-repository.
+    The upstream repo contains more stuff and is not helpful.
+  * Update debian/upstream/metadata.
+  * Import upstream version 4.025.
+  * Bump versioned build dependency on libsereal-{de,en}coder-perl.
+  * Declare compliance with Debian Policy 4.6.1.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 29 Jul 2022 13:51:19 +0200
+
+libsereal-perl (4.023-1) unstable; urgency=medium
+
+  * Import upstream version 4.023.
+  * Bump versioned build dependency on libsereal-{de,en}coder-perl.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 20 Feb 2022 19:47:37 +0100
+
+libsereal-perl (4.022-1) unstable; urgency=medium
+
+  * Import upstream version 4.022.
+  * Bump versioned build dependency on libsereal-{de,en}coder-perl.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 20 Feb 2022 03:58:40 +0100
+
+libsereal-perl (4.021-1) unstable; urgency=medium
+
+  * Import upstream version 4.021.
+  * Bump versioned build dependency on libsereal-{de,en}coder-perl.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 19 Feb 2022 01:08:18 +0100
+
+libsereal-perl (4.020-1) unstable; urgency=medium
+
+  * Import upstream version 4.020.
+  * Bump versioned build dependency on libsereal-{de,en}coder-perl.
+  * Update build dependencies.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 18 Feb 2022 13:50:50 +0100
+
+libsereal-perl (4.019-1) unstable; urgency=medium
+
+  * Import upstream version 4.019.
+  * Update versioned test dependency on libsereal-{de,en}coder-perl.
+  * Declare compliance with Debian Policy 4.6.0.
+  * Update years of packaging copyright.
+  * Update lintian overrides.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 13 Feb 2022 13:29:29 +0100
+
 libsereal-perl (4.018-1) unstable; urgency=medium
 
   * Import upstream version 4.018.

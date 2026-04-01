@@ -1,3 +1,5 @@
 # We do this on purpose, the packages are released in lockstep, even from the same git repo.
-libsereal-perl source: version-substvar-for-external-package libsereal-perl -> libsereal-decoder-perl
-libsereal-perl source: version-substvar-for-external-package libsereal-perl -> libsereal-encoder-perl
+libsereal-perl source: version-substvar-for-external-package Depends *
+
+# The upstream repo contains more stuff and is not helpful.
+libsereal-perl source: upstream-metadata-missing-repository
